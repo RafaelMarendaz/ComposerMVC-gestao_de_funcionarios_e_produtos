@@ -1,0 +1,24 @@
+{
+    "name": "rafael/curso-mvc",
+    "description": "Curso de MVC com Composer no PHP",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Rafael A Marendaz",
+            "email": "rafael.marendaz@revvo.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    }
+}
